@@ -15,7 +15,8 @@ def david(request):
 def murtaza(request):
     return HttpResponse("Hello Murtaza")
 
-
+def greet(request, name):
+    return HttpResponse(f"Hello,{name.capitalize()}")
 
 
 
