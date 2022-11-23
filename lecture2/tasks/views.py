@@ -8,5 +8,5 @@ def index(request):
         "tasks": tasks 
     } )
     
-    def add(request):
-        return render(request, "tasks/add.html")
+def add(request):
+    return render(request, "tasks/add.html")
